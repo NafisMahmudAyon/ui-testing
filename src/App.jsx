@@ -22,7 +22,7 @@ import {
 	Accordion,
 	AccordionDetails,
 	AccordionHeader,
-} from "landing-page-ui";
+} from "ui";
 
 function App() {
 	const imageUrls = [
