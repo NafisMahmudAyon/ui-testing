@@ -6,8 +6,8 @@ import {
 	TabsNav,
 	Tab,
 	TabPanel,
-	MasonryGrid,
-	MasonryGridItem,
+	// MasonryGrid,
+	// MasonryGridItem,
 	List,
 	ImageGallery,
 	Image,
@@ -246,7 +246,7 @@ function App() {
             </AccordionDetails>
           </Accordion>
           <Text style="text-center text-4xl font-medium my-4 ">Masonry Grid</Text>
-          <MasonryGrid gutter={20} columnWidth={360} fitWidth={true}>
+          {/* <MasonryGrid gutter={20} columnWidth={360} fitWidth={true}>
             {imageUrls.map((imageUrl, index) => (
               <MasonryGridItem key={index}>
                 <Image
@@ -257,7 +257,7 @@ function App() {
                 />
               </MasonryGridItem>
             ))}
-          </MasonryGrid>
+          </MasonryGrid> */}
           <Text style="text-center text-4xl font-medium my-4 ">
             Image Gallery
           </Text>
